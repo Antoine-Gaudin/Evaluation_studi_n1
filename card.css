@@ -1,0 +1,63 @@
+
+.police{
+    font-family: "Gill Sans", sans-serif, Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify
+}
+
+.police-title{
+
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center
+}
+
+.animation{
+text-align: center;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-delay: 0ms;
+animation-name:suitelien ;
+color: black;
+
+}
+
+@keyframes suitelien{
+    form{
+     
+        color: black;
+    }
+    to{
+        color: white;
+        width: 50px;
+    }
+}
+
+
+.controle{
+
+margin-top: 30px ;
+display : flex;
+
+}
+
+.paramcard{
+
+height: 350px;
+width: 350px;
+
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait){
+    
+        .rep{
+            display:none;
+        }
+
+}
+
+
+
+

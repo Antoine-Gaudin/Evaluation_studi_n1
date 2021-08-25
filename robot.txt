@@ -1,0 +1,3 @@
+user-agent: googlebot;
+Disallow: /Erreur.html/
+Disallow:/Compétition.html/
